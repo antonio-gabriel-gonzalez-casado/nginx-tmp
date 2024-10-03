@@ -1,0 +1,8 @@
+services:
+  temporary-server:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - /var/www/html:/usr/share/nginx/html
+
